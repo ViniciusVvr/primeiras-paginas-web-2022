@@ -6,6 +6,7 @@ body{
 header{  
     background-color: rgb(97, 175, 252);
     padding: 15px 15px;
+
 }
 
 
@@ -31,6 +32,12 @@ header h1 img{
     padding: 15px 0 10px 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.135);
     box-shadow: 5px 5px 10px #d5d5d5;
+   
+}
+
+.topo{
+    width: 100%;
+    position: fixed;
 }
 
 .navegacao ul li{
@@ -47,7 +54,6 @@ header h1 img{
 
 .navegacao a:hover{
     border-bottom: 3px solid rgb(57, 198, 151);
-    font-size: ;
 }
 
 .todosJogos_Principal a{
@@ -78,7 +84,7 @@ header h1 img{
  main{
     margin: 0 50px;
     background-color: rgba(233, 233, 233, 0.950);
-    padding: 0 200px;
+    padding: 150px 200px;
     height: 100%;
  }
 
@@ -94,6 +100,7 @@ header h1 img{
  .colunaUm, .colunaDois, .colunaTres{
     display: flex;
  }
+ 
 
  .capa{
     max-width: 100%;
