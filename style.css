@@ -1,0 +1,50 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #e8e8e8;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(97, 175, 252);
+    padding: 15px 15px;
+}
+
+
+header h1 img{
+    width: 80px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.meusJogos{
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.navegacao{
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 15px 15px 10px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.135);
+    box-shadow: 5px 5px 10px #d5d5d5
+}
+
+.navegacao ul li{
+    display: inline;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+.todosJogos a{
+    color: rgb(57, 198, 151);
+ }
